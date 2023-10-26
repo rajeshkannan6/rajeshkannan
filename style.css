@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+}
+
+.hero{
+    background-image:  url(rajesh.png);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+
+}
+
+ a{
+    text-decoration: none;
+    color: red;
+    padding: 2em;
+    display: flex 3;
+    flex-direction: columm;
+    
+
+ }
+
+ .head{
+    display: flex;
+    padding: 2em;
+    color: white;
+
+ }
+
+ .deteail{
+    display: flex;
+    text-decoration-color: blue;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    padding: 4em;
+ }
+
+ h1{
+    color:brown;
+ }
+
+ p{
+    color: red;
+    font-weight: bolder;
+    font-size: 1.5em;
+    padding: 7em;
+ }
+ button{
+    background-color: violet;
+    border-radius: 2em;
+    padding: 7em;
+    color: white;
+    width: 20vw;
+    margin-top: 2em;
+ }
